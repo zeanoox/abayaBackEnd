@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="body" x1="0" x2="1"><stop offset="0" stop-color="#c5b598"/><stop offset=".5" stop-color="#d3c3a6"/><stop offset="1" stop-color="#c1b194"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3eee5"/><stop offset="1" stop-color="#e5e0d7"/></linearGradient></defs>
+<rect x="-600" y="-600" width="1800" height="2000" fill="url(#bg)"/>
+<path d="M170 800V260a130 130 0 0 1 260 0v540z" fill="#fff" opacity=".28"/>
+<path d="M300 150c-36 0-58 28-58 62 0 16 4 28 10 36-30 12-46 30-52 52L150 760c80 26 220 26 300 0L400 300c-6-22-22-40-52-52 6-8 10-20 10-36 0-34-22-62-58-62z" fill="url(#body)"/><path d="M300 250v512" stroke="#f3eee5" stroke-opacity=".35" stroke-width="2.5"/><ellipse cx="300" cy="208" rx="27" ry="35" fill="#e6d2bc"/><path d="M215 300C150 380 120 480 110 560c40 14 90 10 130-8l20-180z" fill="#bdad90"/>
+      <path d="M385 300c65 80 95 180 105 260-40 14-90 10-130-8l-20-180z" fill="#bdad90"/><path d="M262 340l-26 410M338 340l26 410" stroke="#000" stroke-opacity=".12" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,15 @@
+export const config = {
+  env: process.env.NODE_ENV || 'development',
+  isProd: process.env.NODE_ENV === 'production',
+  port: Number(process.env.PORT || 4000),
+  apiUrl: (process.env.API_PUBLIC_URL || 'http://localhost:4000').replace(/\/$/, ''),
+  frontendUrl: (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, ''),
+  corsOrigins: (process.env.CORS_ORIGIN || 'http://localhost:5173').split(',').map((s) => s.trim()).filter(Boolean),
+  paymentProvider: process.env.PAYMENT_PROVIDER || 'mollie',
+  mollieKey: process.env.MOLLIE_API_KEY || '',
+  reservationMinutes: Number(process.env.ORDER_RESERVATION_MINUTES || 60),
+  newArrivalDays: Number(process.env.NEW_ARRIVAL_DAYS || 30),
+  trustProxy: process.env.TRUST_PROXY ?? (process.env.NODE_ENV === 'production' ? '1' : 'loopback'),
+  currency: 'EUR',
+  langs: ['nl', 'en', 'ar'],
+};

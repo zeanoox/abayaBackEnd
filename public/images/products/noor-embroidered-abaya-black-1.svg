@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="body" x1="0" x2="1"><stop offset="0" stop-color="#11100e"/><stop offset=".5" stop-color="#1f1e1c"/><stop offset="1" stop-color="#0d0c0a"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8e2d6"/><stop offset="1" stop-color="#dad4c8"/></linearGradient></defs>
+<rect x="-600" y="-600" width="1800" height="2000" fill="url(#bg)"/>
+<path d="M170 800V260a130 130 0 0 1 260 0v540z" fill="#fff" opacity=".28"/>
+<path d="M300 150c-36 0-58 28-58 62 0 16 4 28 10 36-30 12-46 30-52 52L150 760c80 26 220 26 300 0L400 300c-6-22-22-40-52-52 6-8 10-20 10-36 0-34-22-62-58-62z" fill="url(#body)"/><path d="M300 250v512" stroke="#e8e2d6" stroke-opacity=".35" stroke-width="2.5"/><ellipse cx="300" cy="208" rx="27" ry="35" fill="#e6d2bc"/><path d="M212 300c-16 60-28 140-44 224 20 8 44 8 60 0l16-140z" fill="#090806"/>
+      <path d="M388 300c16 60 28 140 44 224-20 8-44 8-60 0l-16-140z" fill="#090806"/><path d="M262 340l-26 410M338 340l26 410" stroke="#000" stroke-opacity=".12" stroke-width="3" fill="none"/><g stroke="#e8e2d6" stroke-width="2" fill="none" opacity=".95">
+    <path d="M202 320c-6 40-12 80-20 130"/><g transform="translate(196 330)">
+      <path d="M0 0c-10-3-15-12-13-18 8 2 13 10 13 18z"/><path d="M0 0c10-5 15-13 12-20-8 3-12 12-12 20z"/></g><g transform="translate(193 352)">
+      <path d="M0 0c-10-3-15-12-13-18 8 2 13 10 13 18z"/><path d="M0 0c10-5 15-13 12-20-8 3-12 12-12 20z"/></g><g transform="translate(190 374)">
+      <path d="M0 0c-10-3-15-12-13-18 8 2 13 10 13 18z"/><path d="M0 0c10-5 15-13 12-20-8 3-12 12-12 20z"/></g><g transform="translate(187 396)">
+      <path d="M0 0c-10-3-15-12-13-18 8 2 13 10 13 18z"/><path d="M0 0c10-5 15-13 12-20-8 3-12 12-12 20z"/></g><g transform="translate(184 418)">
+      <path d="M0 0c-10-3-15-12-13-18 8 2 13 10 13 18z"/><path d="M0 0c10-5 15-13 12-20-8 3-12 12-12 20z"/></g><g transform="translate(181 440)">
+      <path d="M0 0c-10-3-15-12-13-18 8 2 13 10 13 18z"/><path d="M0 0c10-5 15-13 12-20-8 3-12 12-12 20z"/></g></g>
+</svg>
